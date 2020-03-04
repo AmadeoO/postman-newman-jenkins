@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "project for storing Postman tests",
   "scripts": {
-    "api-tests-production": "newman run tests/jsonplaceholder.com.postman_collection.json"
+    "api-tests-production": "newman run tests/jsonplaceholder.com.postman_collection.json --reporters=cli,htmlextra"
   },
   "author": "Amadeo Garcia",
   "license": "ISC",
